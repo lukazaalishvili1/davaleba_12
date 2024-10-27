@@ -1,0 +1,37 @@
+@media (max-width: 481px) {
+  .container {
+    padding-inline: 20px;
+  }
+
+  .main_section {
+    padding: 16px;
+  }
+  .input_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 36px;
+  }
+
+  .contact_map_section {
+    row-gap: 40px;
+  }
+
+  .buttons_section {
+    column-gap: 42px;
+  }
+}
+
+@media (max-width: 321px) {
+  .container {
+    padding: 16px 8px;
+  }
+
+  .main_section {
+    row-gap: 48px;
+    padding-inline: 8px;
+  }
+
+  .contact_map_section {
+    row-gap: 24px;
+  }
+}

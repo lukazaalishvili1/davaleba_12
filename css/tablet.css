@@ -1,0 +1,18 @@
+@media (max-width: 801px) {
+  .container {
+    padding: 32px 24px;
+  }
+
+  .main_section {
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 40px 16px;
+  }
+
+  .form_section {
+    width: 100%;
+  }
+  .contact_map_section {
+    width: 100%;
+  }
+}
